@@ -1,0 +1,255 @@
+html, body {
+  font-family: 'Press Start 2P', monospace;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  float: none;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+/* footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
+
+.header-text {
+  margin-top: 100px;
+  color: azure;
+}
+
+.content {
+  margin-top: 62px;
+  /* margin-top: 100px; */
+}
+
+/* .nav-item a.active, 
+.nav-item a:active, 
+.nav-item a:visited {
+    border-bottom: 3px solid #13b66a;
+} */
+
+/* new */
+.home-content, .experience-content, .about-content, .contact-content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-family: 'Press Start 2P', monospace;
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  display: inline-block;
+}
+
+/* end new */
+
+.home-content {
+  background: url(https://media.tenor.com/WPqFfKvgIbUAAAAd/stars-train.gif);
+}
+.name {
+  font-family: "Josefin Sans",sans-serif !important;
+  /* border: 2px solid white !important; */
+  /* margin: 0 5px 0 5px; */
+  /* border-radius: 55px; */
+  color: #DBE8D4;
+  text-align: center;
+  padding: 25px 0 10px 0;
+  /* background-color: #222733; */
+}
+.name h1 {
+  font-size: 7vw;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.name h3 {
+  margin: 10px 0 10px 0;
+  font-size: 3vw;
+}
+
+.home-content img {
+  margin: 30px 0 30px 0;
+  width: 200px;
+  height: auto; 
+  border-radius: 50%;
+}
+
+.home-content button {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-content button:hover {
+  background-color: #0D47A1;
+}
+
+.about-content, .contact-content, .experience-content {
+  background-color: #343a40!important; 
+}
+.about-content {
+  width: auto;
+  height: 400px;
+}
+
+#typing {
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 25px;
+  text-align: justify;
+  margin: 0 50px 0 50px;
+}
+
+#job-list {
+  margin: 20px 20px 0px 20px;
+}
+
+.card-title, .card-subtitle, .card-text {
+  color: black;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* footer */
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#222733;
+  color: white;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* footer end */
+
+/* back to top */
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.back-to-top:hover {
+  background-color: #555555;
+}
+
+/* button */
+#myButton {
+  margin: 0 0 0 20px;
+  width: 100px;
+}
+
+#myButton a {
+  color: white; 
+  text-decoration: none;
+}

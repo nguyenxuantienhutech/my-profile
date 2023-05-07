@@ -1,0 +1,74 @@
+#home-title {
+  font-family: "Josefin Sans",sans-serif !important;
+  /* border: 2px solid white !important; */
+  /* margin: 0 5px 0 5px; */
+  /* border-radius: 55px; */
+  color: #DBE8D4;
+  text-align: center;
+  padding: 25px 0 10px 0;
+  background-color: #222733;
+}
+
+#home-title > h1 {
+  font-size: 7vw;
+  font-weight: 100;
+  line-height: 1;
+}
+
+#home-title > h3 {
+  margin: 10px 0 10px 0;
+  font-size: 3vw;
+}
+
+.home-avatar {
+  text-align: center;
+}
+
+.home-avatar img {
+  margin: 30px 0 30px 0;
+  width: 200px;
+  height: auto; 
+  border-radius: 50%;
+}
+
+.home-intro {
+  font-size: 20px;
+  text-align: justify;
+  /* border: 2px solid white; */
+  /* border-radius: 40px; */
+  /* margin: 50px ; */
+  width: auto;
+  height: 200px;
+  /* background: url(https://www.shutterstock.com/shutterstock/videos/1092640495/thumb/1.jpg?ip=x480) ; */
+}
+
+#typing {
+
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  float: none;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+<!-- <div id="home-title">
+<h4>HOME</h4>
+<div class="home-avatar">
+  <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/113276314/original/d935c8238cce6533ce18e606ad3e471257e41e8e/create-a-pixel-art-avatar-of-you.png" alt="">
+</div>
+<h1>NGUYEN XUAN TIEN</h1>
+<h3>Web Developer</h3>
+</div>
+<div class="home-intro">
+<div id="typing"></div>
+</div> -->

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <!-- css -->
+    <link rel='stylesheet' href='/css/style.css' />
+    <!-- js -->
+  </head>
+  <body>
+    <!-- Header -->
+    <% include ../partials/header %>
+    <!-- Content -->
+    <div class="content">
+
+      <!-- Tag Home -->
+      <div class="home-content">
+        <!-- <h1 class="title">HOME</h1> -->
+        <!-- <div class="line"></div> -->
+        <div class="name">
+          <h1>NGUYEN XUAN TIEN</h1>
+          <h3>Web Developer</h3>
+        </div>
+        <div>
+          <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/113276314/original/d935c8238cce6533ce18e606ad3e471257e41e8e/create-a-pixel-art-avatar-of-you.png" alt="">
+        </div>
+        <button id="myButton">PLAY</button>
+        <button id="myButton"><a href="https://drive.google.com/file/d/1XbTbBZSWPUjkijcrk6kLfX6q4-pBZvcy/view?usp=sharing" target="_blank">MY CV</a></button>
+      </div>
+
+      <!-- Tag About -->
+      <div class="about-content">
+        <h1 class="title">ABOUT</h1>
+        <div class="line"></div>
+        <div id="typing"></div>
+      </div>
+
+      <!-- Tag Exp -->
+      <div class="experience-content">
+        <h1 class="title">EXPERIENCE</h1>
+        <div class="line"></div>
+        <div class="row" id="job-list">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Job Title 1</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Company Name 1</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula eros.</p>
+                  <p class="card-text">Duration: 2020-2021</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Job Title 2</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Company Name 2</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula eros.</p>
+                  <p class="card-text">Duration: 2018-2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Job Title 3</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Company Name 3</h6>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ligula eros.</p>
+                  <p class="card-text">Duration: 2015-2018</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tag Contact -->
+      <div class="contact-content">
+        <h1 class="title">CONTACT</h1>
+        <div class="line"></div>
+        <p style="margin-top: 10px; color: white;">Fill out the form below to send me an email:</p>
+        <section id="contact" class="w-100">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mx-auto text-center"> <!-- Thêm lớp mx-auto và text-center vào đây -->
+                <div class="section-content">
+                  <form id="contact-form" method="post" action="contact.php">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" placeholder="Your Name *" required>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="email" name="email" class="form-control" placeholder="Your Email *" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control" placeholder="Your Message *" rows="6" required></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <button style="margin-top: 10px;" type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>    
+    <!-- Footer -->
+    <% include ../partials/footer2 %>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
