@@ -6,12 +6,12 @@
 <head>
   <meta charset="UTF-8">
   <style>
-    body {
+    /* body {
       background-color: #f2f2f2;
       font-family: Arial, sans-serif;
-    }
+    } */
 
-    .container {
+    .update {
       max-width: 800px;
       margin: 0 auto;
       display: flex;
@@ -22,18 +22,18 @@
       text-align: center;
     }
 
-    h1 {
+    .update h1 {
       font-size: 6rem;
       margin: 0;
       color: #555;
     }
 
-    p {
+    .update p {
       font-size: 2rem;
       color: #888;
     }
 
-    img {
+    .update img {
       max-width: 100%;
       height: auto;
       margin-bottom: 2rem;
@@ -41,10 +41,12 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <% include ../partials/header %>
+  <div class="update">
     <img style="  background-image: none; width: 400px; height:auto;" src="/img/404.png" alt="Under Construction">
     <h1>Hihi Haha</h1>
     <p>Đang cập nhật...</p>
   </div>
+  <% include ../partials/footer2 %>
 </body>
 </html>

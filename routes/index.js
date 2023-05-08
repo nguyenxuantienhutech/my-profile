@@ -1,17 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/error', function(req, res, next) {
-  res.render('home/error');
-});
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home/index', { title: 'Express' });
+  res.render('home/loading');
 });
 
+router.get('/home', function(req, res, next) {
+  res.render('home/index');
+}); 
+
 router.get('/about', function(req, res, next) {
-  res.render('home/about', { path: '/about' });
+  res.render('home/about');
 });
 
 router.get('/experience', function(req, res, next) {
@@ -22,8 +22,8 @@ router.get('/contact', function(req, res, next) {
   res.render('home/contact');
 });
 
-router.get('/error', function(req, res, next) {
-  res.render('home/error');
+router.get('/update', function(req, res, next) {
+  res.render('home/update');
 });
 
 module.exports = router;

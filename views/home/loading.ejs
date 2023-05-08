@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/css/style-loading.css' />
+    <link rel='stylesheet' href='/css/style-background.css' />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <div id="controls">
+        <h1 id="marquee">Hello World!</h1>
+        Theme: <select id="themes">
+            <option value="ArkStarmap">Ark Starmap</a>
+            <option value="Raindrops">Rain</a>
+            <option value="Radiator">Rainbow Radiator</a>
+            <option value="Eaters">Eaters</a>
+            <option value="Glass">Stained Glass</a>
+            <option value="RGBY">RGBY Mixer</a>
+            <option value="Chasers">Act 2: The Chase</a>
+            <option value="Particles">Particles</a>
+            <!--<option value="Fibonacci">Fibonacci</a>   
+            <option value="Orbital">Orbital</a>-->
+            <option value="Maze">The Maze</a>
+        </select>
+        <!-- Loading -->
+        <div style="margin-top: 5px; font-family: VT323; font-size: 20px;" class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <svg>
+        <g></g>
+    </svg>
+    <script>
+        const loadingDiv = document.querySelector('.loading');
+        // Chờ 5 giây sau đó thực hiện hành động chuyển hướng sang trang home
+        setTimeout(() => {
+            // Chuyển hướng sang trang home
+            window.location.href = '/home';
+        }, 6000);
+    </script>
+    <script src="/js/background.js"></script> 
+</body>
+</html>
